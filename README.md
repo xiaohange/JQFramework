@@ -4,8 +4,9 @@
 JQFramework：有效提高开发效率，一些网络，扩展，分类，uikit下的封装！ 
 
 ### 目录:
+![](https://github.com/xiaohange/JQFramework/blob/master/1.0.2.png?raw=true)
 
-
+其中Nework下的 [JQHttpRequest](https://github.com/xiaohange/JQHttpRequest) 是本人的开源网络封装库, 可灵活使用;
 ## Installation
 
 #### From CocoaPods
@@ -32,8 +33,10 @@ pod  "JQFramework"
 
 ## Star
 
-[CSDN博客](http://blog.csdn.net/qq_31810357)    
+![微信公众号](http://img.blog.csdn.net/20170217102843795)
 
+微信公众号每周推送新技术, [CSDN博客](http://blog.csdn.net/qq_31810357)欢迎关注交流!
+ 
 iOS开发者交流群：446310206 喜欢就❤️❤️❤️star一下吧！你的支持是我更新的动力！ Love is every every every star! Your support is my renewed motivation!
 
 

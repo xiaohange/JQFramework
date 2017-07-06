@@ -11,7 +11,6 @@
 		471214A61F0CDF3400A7E223 /* NSDate+JQAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 471214631F0CDF3400A7E223 /* NSDate+JQAdd.m */; };
 		471214A71F0CDF3400A7E223 /* NSDictionary+JQAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 471214651F0CDF3400A7E223 /* NSDictionary+JQAdd.m */; };
 		471214A81F0CDF3400A7E223 /* NSObject+JQAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 471214671F0CDF3400A7E223 /* NSObject+JQAdd.m */; };
-		471214A91F0CDF3400A7E223 /* NSString+JQAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 471214691F0CDF3400A7E223 /* NSString+JQAdd.m */; };
 		471214AA1F0CDF3400A7E223 /* NSString+JQNormalRegex.m in Sources */ = {isa = PBXBuildFile; fileRef = 4712146B1F0CDF3400A7E223 /* NSString+JQNormalRegex.m */; };
 		471214AB1F0CDF3400A7E223 /* NSString+JQSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 4712146D1F0CDF3400A7E223 /* NSString+JQSize.m */; };
 		471214AC1F0CDF3400A7E223 /* NSString+JQSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4712146F1F0CDF3400A7E223 /* NSString+JQSystem.m */; };
@@ -39,6 +38,7 @@
 		471214C21F0CDF3400A7E223 /* UIView+JQIBInspectable.m in Sources */ = {isa = PBXBuildFile; fileRef = 471214A01F0CDF3400A7E223 /* UIView+JQIBInspectable.m */; };
 		471214C31F0CDF3400A7E223 /* UIView+JQScreenShot.m in Sources */ = {isa = PBXBuildFile; fileRef = 471214A21F0CDF3400A7E223 /* UIView+JQScreenShot.m */; };
 		471214C41F0CDF3400A7E223 /* JQUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 471214A51F0CDF3400A7E223 /* JQUtilities.m */; };
+		476B20701F0DCE1800E86402 /* NSString+JQAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 476B206F1F0DCE1800E86402 /* NSString+JQAdd.m */; };
 		47B0E0B11ECD2A0700A56F44 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B0E0B01ECD2A0700A56F44 /* main.m */; };
 		47B0E0B41ECD2A0700A56F44 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B0E0B31ECD2A0700A56F44 /* AppDelegate.m */; };
 		47B0E0B71ECD2A0700A56F44 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B0E0B61ECD2A0700A56F44 /* ViewController.m */; };
@@ -76,8 +76,6 @@
 		471214651F0CDF3400A7E223 /* NSDictionary+JQAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+JQAdd.m"; sourceTree = "<group>"; };
 		471214661F0CDF3400A7E223 /* NSObject+JQAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+JQAdd.h"; sourceTree = "<group>"; };
 		471214671F0CDF3400A7E223 /* NSObject+JQAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+JQAdd.m"; sourceTree = "<group>"; };
-		471214681F0CDF3400A7E223 /* NSString+JQAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JQAdd.h"; sourceTree = "<group>"; };
-		471214691F0CDF3400A7E223 /* NSString+JQAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JQAdd.m"; sourceTree = "<group>"; };
 		4712146A1F0CDF3400A7E223 /* NSString+JQNormalRegex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JQNormalRegex.h"; sourceTree = "<group>"; };
 		4712146B1F0CDF3400A7E223 /* NSString+JQNormalRegex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JQNormalRegex.m"; sourceTree = "<group>"; };
 		4712146C1F0CDF3400A7E223 /* NSString+JQSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JQSize.h"; sourceTree = "<group>"; };
@@ -136,6 +134,8 @@
 		471214A41F0CDF3400A7E223 /* JQUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQUtilities.h; sourceTree = "<group>"; };
 		471214A51F0CDF3400A7E223 /* JQUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQUtilities.m; sourceTree = "<group>"; };
 		4764A6CF844656A906BF0EB6 /* libPods-JQFrameworkDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JQFrameworkDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		476B206E1F0DCE1800E86402 /* NSString+JQAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JQAdd.h"; sourceTree = "<group>"; };
+		476B206F1F0DCE1800E86402 /* NSString+JQAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JQAdd.m"; sourceTree = "<group>"; };
 		47B0E0AC1ECD2A0700A56F44 /* JQFrameworkDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JQFrameworkDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47B0E0B01ECD2A0700A56F44 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		47B0E0B21ECD2A0700A56F44 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -207,8 +207,8 @@
 				471214651F0CDF3400A7E223 /* NSDictionary+JQAdd.m */,
 				471214661F0CDF3400A7E223 /* NSObject+JQAdd.h */,
 				471214671F0CDF3400A7E223 /* NSObject+JQAdd.m */,
-				471214681F0CDF3400A7E223 /* NSString+JQAdd.h */,
-				471214691F0CDF3400A7E223 /* NSString+JQAdd.m */,
+				476B206E1F0DCE1800E86402 /* NSString+JQAdd.h */,
+				476B206F1F0DCE1800E86402 /* NSString+JQAdd.m */,
 				4712146A1F0CDF3400A7E223 /* NSString+JQNormalRegex.h */,
 				4712146B1F0CDF3400A7E223 /* NSString+JQNormalRegex.m */,
 				4712146C1F0CDF3400A7E223 /* NSString+JQSize.h */,
@@ -567,6 +567,7 @@
 				471214C31F0CDF3400A7E223 /* UIView+JQScreenShot.m in Sources */,
 				471214B21F0CDF3400A7E223 /* UIButton+JQAlignment.m in Sources */,
 				471214C01F0CDF3400A7E223 /* UIView+JQFind.m in Sources */,
+				476B20701F0DCE1800E86402 /* NSString+JQAdd.m in Sources */,
 				471214B11F0CDF3400A7E223 /* UIAlertView+JQBlock.m in Sources */,
 				471214B41F0CDF3400A7E223 /* UIButton+JQBlock.m in Sources */,
 				471214A71F0CDF3400A7E223 /* NSDictionary+JQAdd.m in Sources */,
@@ -584,7 +585,6 @@
 				471214C41F0CDF3400A7E223 /* JQUtilities.m in Sources */,
 				47B0E0B11ECD2A0700A56F44 /* main.m in Sources */,
 				471214AE1F0CDF3400A7E223 /* NSUserDefaults+JQSafeAccess.m in Sources */,
-				471214A91F0CDF3400A7E223 /* NSString+JQAdd.m in Sources */,
 				471214B51F0CDF3400A7E223 /* UIColor+JQAdd.m in Sources */,
 				471214B91F0CDF3400A7E223 /* UIImage+JQGIF.m in Sources */,
 				471214BD1F0CDF3400A7E223 /* UITabBar+Extension.m in Sources */,

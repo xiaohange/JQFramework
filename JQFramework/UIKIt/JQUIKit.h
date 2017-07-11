@@ -28,6 +28,6 @@
 #import "UIFont+JQTTF.h"
 #import "UITabBar+Extension.h"
 #import "UIView+JQIBInspectable.h"
-
+#import "UIControl+JQ.h"
 
 #endif /* JQUIKit_h */

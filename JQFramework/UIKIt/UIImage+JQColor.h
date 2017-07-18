@@ -13,7 +13,7 @@
 /**
  Create and return a 1x1 point size image with the given color.
  
- @param color  The color.
+ @param color  The color. 根据颜色生成纯色图片
  */
 + (UIImage *)imageWithColor:(UIColor *)color;
 
@@ -29,7 +29,7 @@
 
 
 /**
-  Get the color at the pooint
+  Get the color at the pooint 取图片某一像素的颜色
 
  @param point point description
  @return return value description
@@ -38,8 +38,8 @@
 
 
 /**
- Get the Gray image
-
+ Get the Gray image 获得灰度图
+ 
  @param originImage originImage description
  @return return value description
  */

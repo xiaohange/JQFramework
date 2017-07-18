@@ -3,10 +3,39 @@
 ===
 JQFramework：有效提高开发效率，一些网络，扩展，分类，uikit下的封装！ 
 
+---
+
+### 更新记录:
+
+###### V1.0.6
+1. UIKit 新增`UIImage+JQSubImage.h` ;
+2. UIKit 新增 `UIImage+JQGIF.h`Gif生成UIImage 方法;
+
+###### V1.0.5
+UIKit 新增: `UIControl+JQ.h`
+
+###### V1.0.4
+UIKit 新增 `NSString+JQAdd.h`
+
+###### V1.0.3
+容错版本, 优化大量代码, 新增 Network 网络库;
+
+###### V1.0.2
+基础版本提交, 有效提高开发效率，一些网络，扩展，分类，uikit下的封装！
+
+---
+
 ### 目录:
-![](https://github.com/xiaohange/JQFramework/blob/master/1.0.2.png?raw=true)
+| JQFramework |
+| ----------- |
+|     ![](https://github.com/xiaohange/JQFramework/blob/master/1.0.2.png?raw=true)        |
+   
+
 
 其中Nework下的 [JQHttpRequest](https://github.com/xiaohange/JQHttpRequest) 是本人的开源网络封装库, 可灵活使用;
+
+---
+
 ## Installation
 
 #### From CocoaPods

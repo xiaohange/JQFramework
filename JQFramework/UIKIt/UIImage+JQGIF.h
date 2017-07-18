@@ -14,4 +14,11 @@
 
 + (UIImage *)animatedGIFWithData:(NSData *)data;
 
+//=====================新增===================
+/** 用一个Gif生成UIImage，传入一个GIFData */
++ (UIImage *)animatedImageWithAnimatedGIFData:(NSData *)theData;
+
+/** 用一个Gif生成UIImage，传入一个GIF路径 */
++ (UIImage *)animatedImageWithAnimatedGIFURL:(NSURL *)theURL;
+
 @end

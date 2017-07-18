@@ -29,5 +29,6 @@
 #import "UITabBar+Extension.h"
 #import "UIView+JQIBInspectable.h"
 #import "UIControl+JQ.h"
+#import "UIImage+JQSubImage.h"
 
 #endif /* JQUIKit_h */

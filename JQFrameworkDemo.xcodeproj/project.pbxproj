@@ -41,6 +41,7 @@
 		474D883A1F13712F00E02BD1 /* UIControl+JQ.m in Sources */ = {isa = PBXBuildFile; fileRef = 474D88391F13712F00E02BD1 /* UIControl+JQ.m */; };
 		476B20701F0DCE1800E86402 /* NSString+JQAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 476B206F1F0DCE1800E86402 /* NSString+JQAdd.m */; };
 		476F6D711F1D94D1003BD532 /* UIImage+JQSubImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 476F6D701F1D94D1003BD532 /* UIImage+JQSubImage.m */; };
+		4790462A1F32D0240012DC0F /* NSObject+JQSafeKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 479046291F32D0240012DC0F /* NSObject+JQSafeKVO.m */; };
 		47B0E0B11ECD2A0700A56F44 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B0E0B01ECD2A0700A56F44 /* main.m */; };
 		47B0E0B41ECD2A0700A56F44 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B0E0B31ECD2A0700A56F44 /* AppDelegate.m */; };
 		47B0E0B71ECD2A0700A56F44 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B0E0B61ECD2A0700A56F44 /* ViewController.m */; };
@@ -142,6 +143,8 @@
 		476B206F1F0DCE1800E86402 /* NSString+JQAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JQAdd.m"; sourceTree = "<group>"; };
 		476F6D6F1F1D94D1003BD532 /* UIImage+JQSubImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+JQSubImage.h"; sourceTree = "<group>"; };
 		476F6D701F1D94D1003BD532 /* UIImage+JQSubImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+JQSubImage.m"; sourceTree = "<group>"; };
+		479046281F32D0240012DC0F /* NSObject+JQSafeKVO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+JQSafeKVO.h"; sourceTree = "<group>"; };
+		479046291F32D0240012DC0F /* NSObject+JQSafeKVO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+JQSafeKVO.m"; sourceTree = "<group>"; };
 		47B0E0AC1ECD2A0700A56F44 /* JQFrameworkDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JQFrameworkDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47B0E0B01ECD2A0700A56F44 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		47B0E0B21ECD2A0700A56F44 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -213,6 +216,8 @@
 				471214651F0CDF3400A7E223 /* NSDictionary+JQAdd.m */,
 				471214661F0CDF3400A7E223 /* NSObject+JQAdd.h */,
 				471214671F0CDF3400A7E223 /* NSObject+JQAdd.m */,
+				479046281F32D0240012DC0F /* NSObject+JQSafeKVO.h */,
+				479046291F32D0240012DC0F /* NSObject+JQSafeKVO.m */,
 				476B206E1F0DCE1800E86402 /* NSString+JQAdd.h */,
 				476B206F1F0DCE1800E86402 /* NSString+JQAdd.m */,
 				4712146A1F0CDF3400A7E223 /* NSString+JQNormalRegex.h */,
@@ -588,6 +593,7 @@
 				471214AC1F0CDF3400A7E223 /* NSString+JQSystem.m in Sources */,
 				471214BA1F0CDF3400A7E223 /* UIImage+JQResize.m in Sources */,
 				471214B31F0CDF3400A7E223 /* UIButton+JQBackgroundColor.m in Sources */,
+				4790462A1F32D0240012DC0F /* NSObject+JQSafeKVO.m in Sources */,
 				474D883A1F13712F00E02BD1 /* UIControl+JQ.m in Sources */,
 				47B0E0B71ECD2A0700A56F44 /* ViewController.m in Sources */,
 				471214B71F0CDF3400A7E223 /* UIGestureRecognizer+JQBlock.m in Sources */,

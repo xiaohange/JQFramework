@@ -25,8 +25,6 @@
     textView.placeholder = @"这是一个占位提示！";
     [self.view addSubview:textView];
     
-    
-    
     // init Lbl
     UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(10, 300, 300, 200)];
     label.text = @"兰亭黑字体";
@@ -45,6 +43,20 @@
     testView.backgroundColor = [UIColor gradientFromColor:[UIColor greenColor] toColor:[UIColor clearColor] withHeight:100];
     [self.view addSubview:testView];
     
+    // KVO
+    [textView JQ_addObserver:self forKeyPath:@"contentOffset" options:NSKeyValueObservingOptionNew | NSKeyValueObservingOptionOld context:nil];
+}
+
+- (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary<NSKeyValueChangeKey,id> *)change context:(void *)context
+{
+    if ([keyPath isEqualToString:@"contentOffset"]) {
+        NSLog(@"%@", change);
+    }
+}
+
+- (void)dealloc
+{
+    [self JQ_removeObserver:self forKeyPath:@"contentOffset"];
 }
 
 

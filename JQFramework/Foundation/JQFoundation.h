@@ -18,6 +18,7 @@
 #import "NSDate+JQAdd.h"
 #import "NSTimer+JQBlock.h"
 #import "NSUserDefaults+JQSafeAccess.h"
+#import "NSObject+JQSafeKVO.h"
 
 
 #endif /* JQFoundation_h */

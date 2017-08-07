@@ -6,6 +6,9 @@ JQFramework：有效提高开发效率，一些网络，扩展，分类，uikit�
 ---
 
 ### 更新记录:
+###### V1.0.8
+- 删除网络库, 修复文件冲突,需要网络库可以使用 [JQHttpRequest](https://github.com/xiaohange/JQHttpRequest)
+
 ###### V1.0.7
 - UIFoundation 新增KVO-`NSObject+JQSafeKVO.h`
 

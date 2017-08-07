@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name         = "JQFramework"
-s.version      = "1.0.7"
+s.version      = "1.0.8"
 s.summary      = "Effectively improve development efficiency, a number of networks, extensions, classification, UIKit under the package library."
 s.homepage     = "https://github.com/xiaohange/JQFramework"
 s.license      = { :type => "MIT", :file => "LICENSE" }
@@ -12,6 +12,5 @@ s.source_files  = "JQFramework/**/*.{h,m}"
 s.public_header_files = "JQFramework/**/*.h"
 s.dependency   "AFNetworking"
 s.dependency   "SDWebImage"
-s.dependency   "EGOCache"
 s.requires_arc = true
 end

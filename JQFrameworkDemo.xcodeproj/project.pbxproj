@@ -16,8 +16,6 @@
 		471214AC1F0CDF3400A7E223 /* NSString+JQSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4712146F1F0CDF3400A7E223 /* NSString+JQSystem.m */; };
 		471214AD1F0CDF3400A7E223 /* NSTimer+JQBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 471214711F0CDF3400A7E223 /* NSTimer+JQBlock.m */; };
 		471214AE1F0CDF3400A7E223 /* NSUserDefaults+JQSafeAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = 471214731F0CDF3400A7E223 /* NSUserDefaults+JQSafeAccess.m */; };
-		471214AF1F0CDF3400A7E223 /* JQBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 471214781F0CDF3400A7E223 /* JQBaseRequest.m */; };
-		471214B01F0CDF3400A7E223 /* NSJSONSerialization+JQJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 4712147A1F0CDF3400A7E223 /* NSJSONSerialization+JQJSON.m */; };
 		471214B11F0CDF3400A7E223 /* UIAlertView+JQBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 4712147E1F0CDF3400A7E223 /* UIAlertView+JQBlock.m */; };
 		471214B21F0CDF3400A7E223 /* UIButton+JQAlignment.m in Sources */ = {isa = PBXBuildFile; fileRef = 471214801F0CDF3400A7E223 /* UIButton+JQAlignment.m */; };
 		471214B31F0CDF3400A7E223 /* UIButton+JQBackgroundColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 471214821F0CDF3400A7E223 /* UIButton+JQBackgroundColor.m */; };
@@ -91,10 +89,6 @@
 		471214731F0CDF3400A7E223 /* NSUserDefaults+JQSafeAccess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+JQSafeAccess.m"; sourceTree = "<group>"; };
 		471214741F0CDF3400A7E223 /* JQConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQConstant.h; sourceTree = "<group>"; };
 		471214751F0CDF3400A7E223 /* JQFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQFramework.h; sourceTree = "<group>"; };
-		471214771F0CDF3400A7E223 /* JQBaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQBaseRequest.h; sourceTree = "<group>"; };
-		471214781F0CDF3400A7E223 /* JQBaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQBaseRequest.m; sourceTree = "<group>"; };
-		471214791F0CDF3400A7E223 /* NSJSONSerialization+JQJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSJSONSerialization+JQJSON.h"; sourceTree = "<group>"; };
-		4712147A1F0CDF3400A7E223 /* NSJSONSerialization+JQJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSJSONSerialization+JQJSON.m"; sourceTree = "<group>"; };
 		4712147C1F0CDF3400A7E223 /* JQUIKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQUIKit.h; sourceTree = "<group>"; };
 		4712147D1F0CDF3400A7E223 /* UIAlertView+JQBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+JQBlock.h"; sourceTree = "<group>"; };
 		4712147E1F0CDF3400A7E223 /* UIAlertView+JQBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+JQBlock.m"; sourceTree = "<group>"; };
@@ -199,7 +193,6 @@
 				471214741F0CDF3400A7E223 /* JQConstant.h */,
 				471214751F0CDF3400A7E223 /* JQFramework.h */,
 				471214601F0CDF3400A7E223 /* Foundation */,
-				471214761F0CDF3400A7E223 /* Network */,
 				4712147B1F0CDF3400A7E223 /* UIKIt */,
 				471214A31F0CDF3400A7E223 /* Utility */,
 			);
@@ -232,17 +225,6 @@
 				471214731F0CDF3400A7E223 /* NSUserDefaults+JQSafeAccess.m */,
 			);
 			path = Foundation;
-			sourceTree = "<group>";
-		};
-		471214761F0CDF3400A7E223 /* Network */ = {
-			isa = PBXGroup;
-			children = (
-				471214771F0CDF3400A7E223 /* JQBaseRequest.h */,
-				471214781F0CDF3400A7E223 /* JQBaseRequest.m */,
-				471214791F0CDF3400A7E223 /* NSJSONSerialization+JQJSON.h */,
-				4712147A1F0CDF3400A7E223 /* NSJSONSerialization+JQJSON.m */,
-			);
-			path = Network;
 			sourceTree = "<group>";
 		};
 		4712147B1F0CDF3400A7E223 /* UIKIt */ = {
@@ -608,9 +590,7 @@
 				471214BD1F0CDF3400A7E223 /* UITabBar+Extension.m in Sources */,
 				471214AA1F0CDF3400A7E223 /* NSString+JQNormalRegex.m in Sources */,
 				471214BC1F0CDF3400A7E223 /* UIScrollView+JQAdd.m in Sources */,
-				471214AF1F0CDF3400A7E223 /* JQBaseRequest.m in Sources */,
 				471214A81F0CDF3400A7E223 /* NSObject+JQAdd.m in Sources */,
-				471214B01F0CDF3400A7E223 /* NSJSONSerialization+JQJSON.m in Sources */,
 				471214BF1F0CDF3400A7E223 /* UITextView+JQAdd.m in Sources */,
 				471214B61F0CDF3400A7E223 /* UIFont+JQTTF.m in Sources */,
 				471214A61F0CDF3400A7E223 /* NSDate+JQAdd.m in Sources */,

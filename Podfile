@@ -4,6 +4,5 @@ target 'JQFrameworkDemo' do
 
 pod "AFNetworking"
 pod "SVProgressHUD"
-pod "EGOCache"
 
 end

@@ -49,6 +49,6 @@
  */
 + (NSString *)reverseString:(NSString *)strSrc;
 
-
++ (NSString *)uuid;
 
 @end

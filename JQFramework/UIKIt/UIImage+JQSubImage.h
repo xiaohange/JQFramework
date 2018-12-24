@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
 
 @interface UIImage (JQSubImage)
 
@@ -27,5 +28,6 @@
 
 /** 将两个图片生成一张图片 */
 + (UIImage*)mergeImage:(UIImage*)firstImage withImage:(UIImage*)secondImage;
-
+/** 复制图片 */
++ (UIImage *)getThumbnailImage:(NSString *)videoURL;
 @end

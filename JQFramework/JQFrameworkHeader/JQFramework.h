@@ -8,7 +8,6 @@
 
 #ifndef JQFramework_h
 #define JQFramework_h
-
 #import "JQUtilities.h"
 #import "JQConstant.h"
 #import "JQUIKit.h"

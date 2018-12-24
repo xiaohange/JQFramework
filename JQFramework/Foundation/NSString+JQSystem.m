@@ -23,6 +23,11 @@
     return name;
 }
 
++ (NSString *)getMyApplicationTargetName{
+    NSDictionary *infoDict = [[NSBundle mainBundle] infoDictionary];
+    NSString *targetName = [infoDict objectForKey:@"CFBundleName"];
+    return targetName;
+}
 
 + (NSString *)documentsPath {
     return [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) firstObject];

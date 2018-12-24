@@ -24,6 +24,13 @@
 + (NSString *)getMyApplicationName;
 
 /**
+ *  获取app  Target名称
+ *
+ *  @return <#return value description#>
+ */
++ (NSString *)getMyApplicationTargetName;
+
+/**
  *  application  documents路径
  *
  *  @return <#return value description#>

@@ -19,6 +19,7 @@
 #import "NSTimer+JQBlock.h"
 #import "NSUserDefaults+JQSafeAccess.h"
 #import "NSObject+JQSafeKVO.h"
-
+#import "NSString+MD5.h"
+#import "NSString+Extension.h"
 
 #endif /* JQFoundation_h */

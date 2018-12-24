@@ -30,5 +30,9 @@
 #import "UIView+JQIBInspectable.h"
 #import "UIControl+JQ.h"
 #import "UIImage+JQSubImage.h"
+#import "UIImage+GradientColor.h"
+#import "UIDevice+Hardware.h"
+#import "CALayer+JQIBInspectable.h"
+
 
 #endif /* JQUIKit_h */

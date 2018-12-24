@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		2523F2DFD6C889A4A602CF4C /* libPods-JQFrameworkDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F5F46BE26B715D286AD30DAF /* libPods-JQFrameworkDemo.a */; };
+		3C2F931C21D0B1BE00BB8E8B /* UIImage+GradientColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2F931B21D0B1BE00BB8E8B /* UIImage+GradientColor.m */; };
+		3C2F931F21D0B24A00BB8E8B /* UIDevice+Hardware.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2F931D21D0B24A00BB8E8B /* UIDevice+Hardware.m */; };
+		3C2F932221D0B26B00BB8E8B /* CALayer+JQIBInspectable.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2F932121D0B26B00BB8E8B /* CALayer+JQIBInspectable.m */; };
+		3C2F932521D0B66200BB8E8B /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2F932421D0B66200BB8E8B /* NSString+MD5.m */; };
+		3C2F932821D0B67600BB8E8B /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2F932721D0B67600BB8E8B /* NSString+Extension.m */; };
 		471214A61F0CDF3400A7E223 /* NSDate+JQAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 471214631F0CDF3400A7E223 /* NSDate+JQAdd.m */; };
 		471214A71F0CDF3400A7E223 /* NSDictionary+JQAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 471214651F0CDF3400A7E223 /* NSDictionary+JQAdd.m */; };
 		471214A81F0CDF3400A7E223 /* NSObject+JQAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 471214671F0CDF3400A7E223 /* NSObject+JQAdd.m */; };
@@ -70,6 +75,16 @@
 
 /* Begin PBXFileReference section */
 		215EE2F577B3E5988B13B944 /* Pods-JQFrameworkDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JQFrameworkDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JQFrameworkDemo/Pods-JQFrameworkDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		3C2F931A21D0B1BE00BB8E8B /* UIImage+GradientColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GradientColor.h"; sourceTree = "<group>"; };
+		3C2F931B21D0B1BE00BB8E8B /* UIImage+GradientColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GradientColor.m"; sourceTree = "<group>"; };
+		3C2F931D21D0B24A00BB8E8B /* UIDevice+Hardware.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Hardware.m"; sourceTree = "<group>"; };
+		3C2F931E21D0B24A00BB8E8B /* UIDevice+Hardware.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Hardware.h"; sourceTree = "<group>"; };
+		3C2F932021D0B26A00BB8E8B /* CALayer+JQIBInspectable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+JQIBInspectable.h"; sourceTree = "<group>"; };
+		3C2F932121D0B26B00BB8E8B /* CALayer+JQIBInspectable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+JQIBInspectable.m"; sourceTree = "<group>"; };
+		3C2F932321D0B66100BB8E8B /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
+		3C2F932421D0B66200BB8E8B /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
+		3C2F932621D0B67600BB8E8B /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
+		3C2F932721D0B67600BB8E8B /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
 		471214611F0CDF3400A7E223 /* JQFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQFoundation.h; sourceTree = "<group>"; };
 		471214621F0CDF3400A7E223 /* NSDate+JQAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+JQAdd.h"; sourceTree = "<group>"; };
 		471214631F0CDF3400A7E223 /* NSDate+JQAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+JQAdd.m"; sourceTree = "<group>"; };
@@ -203,6 +218,10 @@
 			isa = PBXGroup;
 			children = (
 				471214611F0CDF3400A7E223 /* JQFoundation.h */,
+				3C2F932321D0B66100BB8E8B /* NSString+MD5.h */,
+				3C2F932421D0B66200BB8E8B /* NSString+MD5.m */,
+				3C2F932621D0B67600BB8E8B /* NSString+Extension.h */,
+				3C2F932721D0B67600BB8E8B /* NSString+Extension.m */,
 				471214621F0CDF3400A7E223 /* NSDate+JQAdd.h */,
 				471214631F0CDF3400A7E223 /* NSDate+JQAdd.m */,
 				471214641F0CDF3400A7E223 /* NSDictionary+JQAdd.h */,
@@ -231,6 +250,12 @@
 			isa = PBXGroup;
 			children = (
 				4712147C1F0CDF3400A7E223 /* JQUIKit.h */,
+				3C2F932021D0B26A00BB8E8B /* CALayer+JQIBInspectable.h */,
+				3C2F932121D0B26B00BB8E8B /* CALayer+JQIBInspectable.m */,
+				3C2F931E21D0B24A00BB8E8B /* UIDevice+Hardware.h */,
+				3C2F931D21D0B24A00BB8E8B /* UIDevice+Hardware.m */,
+				3C2F931A21D0B1BE00BB8E8B /* UIImage+GradientColor.h */,
+				3C2F931B21D0B1BE00BB8E8B /* UIImage+GradientColor.m */,
 				4712147D1F0CDF3400A7E223 /* UIAlertView+JQBlock.h */,
 				4712147E1F0CDF3400A7E223 /* UIAlertView+JQBlock.m */,
 				4712147F1F0CDF3400A7E223 /* UIButton+JQAlignment.h */,
@@ -241,6 +266,8 @@
 				471214841F0CDF3400A7E223 /* UIButton+JQBlock.m */,
 				471214851F0CDF3400A7E223 /* UIColor+JQAdd.h */,
 				471214861F0CDF3400A7E223 /* UIColor+JQAdd.m */,
+				474D88381F13712F00E02BD1 /* UIControl+JQ.h */,
+				474D88391F13712F00E02BD1 /* UIControl+JQ.m */,
 				471214871F0CDF3400A7E223 /* UIFont+JQTTF.h */,
 				471214881F0CDF3400A7E223 /* UIFont+JQTTF.m */,
 				471214891F0CDF3400A7E223 /* UIGestureRecognizer+JQBlock.h */,
@@ -271,8 +298,6 @@
 				471214A01F0CDF3400A7E223 /* UIView+JQIBInspectable.m */,
 				471214A11F0CDF3400A7E223 /* UIView+JQScreenShot.h */,
 				471214A21F0CDF3400A7E223 /* UIView+JQScreenShot.m */,
-				474D88381F13712F00E02BD1 /* UIControl+JQ.h */,
-				474D88391F13712F00E02BD1 /* UIControl+JQ.m */,
 			);
 			path = UIKIt;
 			sourceTree = "<group>";
@@ -564,14 +589,18 @@
 				471214BE1F0CDF3400A7E223 /* UITableView+JQAdd.m in Sources */,
 				471214AC1F0CDF3400A7E223 /* NSString+JQSystem.m in Sources */,
 				471214BA1F0CDF3400A7E223 /* UIImage+JQResize.m in Sources */,
+				3C2F932821D0B67600BB8E8B /* NSString+Extension.m in Sources */,
 				471214B31F0CDF3400A7E223 /* UIButton+JQBackgroundColor.m in Sources */,
 				4790462A1F32D0240012DC0F /* NSObject+JQSafeKVO.m in Sources */,
 				474D883A1F13712F00E02BD1 /* UIControl+JQ.m in Sources */,
+				3C2F932221D0B26B00BB8E8B /* CALayer+JQIBInspectable.m in Sources */,
+				3C2F931F21D0B24A00BB8E8B /* UIDevice+Hardware.m in Sources */,
 				47B0E0B71ECD2A0700A56F44 /* ViewController.m in Sources */,
 				471214B71F0CDF3400A7E223 /* UIGestureRecognizer+JQBlock.m in Sources */,
 				471214AB1F0CDF3400A7E223 /* NSString+JQSize.m in Sources */,
 				47B0E0B41ECD2A0700A56F44 /* AppDelegate.m in Sources */,
 				471214AD1F0CDF3400A7E223 /* NSTimer+JQBlock.m in Sources */,
+				3C2F931C21D0B1BE00BB8E8B /* UIImage+GradientColor.m in Sources */,
 				471214C41F0CDF3400A7E223 /* JQUtilities.m in Sources */,
 				47B0E0B11ECD2A0700A56F44 /* main.m in Sources */,
 				471214AE1F0CDF3400A7E223 /* NSUserDefaults+JQSafeAccess.m in Sources */,
@@ -579,6 +608,7 @@
 				471214B91F0CDF3400A7E223 /* UIImage+JQGIF.m in Sources */,
 				471214BD1F0CDF3400A7E223 /* UITabBar+Extension.m in Sources */,
 				471214AA1F0CDF3400A7E223 /* NSString+JQNormalRegex.m in Sources */,
+				3C2F932521D0B66200BB8E8B /* NSString+MD5.m in Sources */,
 				471214BC1F0CDF3400A7E223 /* UIScrollView+JQAdd.m in Sources */,
 				471214A81F0CDF3400A7E223 /* NSObject+JQAdd.m in Sources */,
 				471214BF1F0CDF3400A7E223 /* UITextView+JQAdd.m in Sources */,

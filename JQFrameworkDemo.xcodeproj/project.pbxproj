@@ -202,19 +202,10 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3C2F932921D0CD1900BB8E8B /* JQFrameworkHeader */ = {
-			isa = PBXGroup;
-			children = (
-				471214741F0CDF3400A7E223 /* JQConstant.h */,
-				471214751F0CDF3400A7E223 /* JQFramework.h */,
-			);
-			path = JQFrameworkHeader;
-			sourceTree = "<group>";
-		};
 		4712145F1F0CDF3400A7E223 /* JQFramework */ = {
 			isa = PBXGroup;
 			children = (
-				3C2F932921D0CD1900BB8E8B /* JQFrameworkHeader */,
+				471214751F0CDF3400A7E223 /* JQFramework.h */,
 				471214601F0CDF3400A7E223 /* JQFoundation */,
 				4712147B1F0CDF3400A7E223 /* JQUIKIt */,
 				471214A31F0CDF3400A7E223 /* JQUtility */,
@@ -313,6 +304,7 @@
 		471214A31F0CDF3400A7E223 /* JQUtility */ = {
 			isa = PBXGroup;
 			children = (
+				471214741F0CDF3400A7E223 /* JQConstant.h */,
 				471214A41F0CDF3400A7E223 /* JQUtilities.h */,
 				471214A51F0CDF3400A7E223 /* JQUtilities.m */,
 			);

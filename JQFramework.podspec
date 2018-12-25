@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name         = "JQFramework"
-s.version      = "1.1.6"
+s.version      = "1.1.7"
 s.summary      = "Effectively improve development efficiency, a number of networks, extensions, classification, UIKit under the package library."
 s.homepage     = "https://github.com/xiaohange/JQFramework"
 s.license      = { :type => "MIT", :file => "LICENSE" }
@@ -10,6 +10,7 @@ s.ios.deployment_target = "8.0"
 s.source       = { :git => "https://github.com/xiaohange/JQFramework.git", :tag => s.version.to_s }
 s.social_media_url = 'https://weibo.com/hjq995'
 s.requires_arc = true
+s.source_files = 'JQFramework/JQFramework.h'
 s.resources = 'JQFramework/**/*'
 
 s.subspec 'JQFoundation' do |fd|
@@ -25,14 +26,6 @@ end
 s.subspec 'JQUtility' do |ut|
 ut.source_files = 'JQFramework/JQUtility/**/*'
 #ut.public_header_files = 'JQFramework/JQUtility/**/*.h'
-end
-
-s.subspec 'JQFrameworkHeader' do |header|
-header.source_files = 'JQFramework/JQFrameworkHeader/**/*'
-#header.public_header_files = 'JQFramework/JQFrameworkHeader/**/*.h'
-header.dependency 'JQFramework/JQFoundation'
-header.dependency 'JQFramework/JQUIKit'
-header.dependency 'JQFramework/JQUtility'
 end
 
 end

@@ -6,6 +6,23 @@ JQFramework：有效提高开发效率，一些网络，扩展，分类，uikit�
 ---
 
 ### 更新记录:
+###### V1.1.8
+- 较大改动, 进行了分支处理. 根据需求引入; 支持iOS8++;
+```
+-> JQFramework (1.1.8)
+Effectively improve development efficiency, a number of networks, extensions,
+classification, UIKit under the package library.
+pod 'JQFramework', '~> 1.1.8'
+- Homepage: https://github.com/xiaohange/JQFramework
+- Source:   https://github.com/xiaohange/JQFramework.git
+- Versions: 1.1.8, 1.1.7, 1.1.2, 1.1.1, 1.1.0, 1.0.9, 1.0.8, 1.0.7, 1.0.6,
+1.0.5, 1.0.4, 1.0.3, 1.0.2 [master repo]
+- Subspecs:
+- JQFramework/JQFoundation (1.1.8)
+- JQFramework/JQUIKIt (1.1.8)
+- JQFramework/JQUtility (1.1.8)
+```
+
 ###### V1.0.8
 - 删除网络库, 修复文件冲突,需要网络库可以使用 [JQHttpRequest](https://github.com/xiaohange/JQHttpRequest)
 
@@ -31,14 +48,20 @@ JQFramework：有效提高开发效率，一些网络，扩展，分类，uikit�
 ---
 
 ### 目录:
-| JQFramework |
-| ----------- |
-|     ![](https://github.com/xiaohange/JQFramework/blob/master/1.0.2.png?raw=true)        |
-   
-
-
-其中Nework下的 [JQHttpRequest](https://github.com/xiaohange/JQHttpRequest) 是本人的开源网络封装库, 可灵活使用;
-
+```
+-> JQFramework (1.1.8)
+Effectively improve development efficiency, a number of networks, extensions,
+classification, UIKit under the package library.
+pod 'JQFramework', '~> 1.1.8'
+- Homepage: https://github.com/xiaohange/JQFramework
+- Source:   https://github.com/xiaohange/JQFramework.git
+- Versions: 1.1.8, 1.1.7, 1.1.2, 1.1.1, 1.1.0, 1.0.9, 1.0.8, 1.0.7, 1.0.6,
+1.0.5, 1.0.4, 1.0.3, 1.0.2 [master repo]
+- Subspecs:
+- JQFramework/JQFoundation (1.1.8)
+- JQFramework/JQUIKIt (1.1.8)
+- JQFramework/JQUtility (1.1.8)
+```
 ---
 
 ## Installation
@@ -55,15 +78,6 @@ pod  "JQFramework"
 ## Usage
 
 引入头文件: `#import "JQFramework.h"` 其他自行按需使用即可;
-
-## Other
-[JQTumblrHud-高仿Tumblr App 加载指示器hud](https://github.com/xiaohange/JQTumblrHud)
-
-[JQScrollNumberLabel：仿tumblr热度滚动数字条数](https://github.com/xiaohange/JQScrollNumberLabel)
-
-[TumblrLikeAnimView-仿Tumblr点赞动画效果](https://github.com/xiaohange/TumblrLikeAnimView)
-
-[JQMenuPopView-仿Tumblr弹出视图发音频、视频、图片、文字的视图](https://github.com/xiaohange/JQMenuPopView)
 
 ## Star
 

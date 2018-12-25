@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name         = "JQFramework"
-s.version      = "1.1.3"
+s.version      = "1.1.4"
 s.summary      = "Effectively improve development efficiency, a number of networks, extensions, classification, UIKit under the package library."
 s.homepage     = "https://github.com/xiaohange/JQFramework"
 s.license      = { :type => "MIT", :file => "LICENSE" }
@@ -12,27 +12,23 @@ s.social_media_url = 'https://weibo.com/hjq995'
 s.requires_arc = true
 
 s.subspec 'Foundation' do |Foundation|
-Foundation.source_files = 'JQFramework/Foundation/**/*.{h,m}'
-Foundation.public_header_files = 'JQFramework/Foundation/**/*.h'
-Foundation.frameworks = 'UIKit', 'Foundation', 'AVFoundation'
+Foundation.source_files = 'JQFramework/Foundation/**/*'
+#Foundation.public_header_files = 'JQFramework/Foundation/**/*.h'
 end
 
 s.subspec 'UIKIt' do |UIKIt|
-UIKIt.source_files = 'JQFramework/UIKIt/**/*.{h,m}'
-UIKIt.public_header_files = 'JQFramework/UIKIt/**/*.h'
-UIKIt.frameworks = 'UIKit', 'Foundation', 'AVFoundation'
+UIKIt.source_files = 'JQFramework/UIKIt/**/*'
+#UIKIt.public_header_files = 'JQFramework/UIKIt/**/*.h'
 end
 
 s.subspec 'Utility' do |Utility|
-Utility.source_files = 'JQFramework/Utility/**/*.{h,m}'
-Utility.public_header_files = 'JQFramework/Utility/**/*.h'
-Utility.frameworks = 'UIKit', 'Foundation', 'AVFoundation'
+Utility.source_files = 'JQFramework/Utility/**/*'
+#Utility.public_header_files = 'JQFramework/Utility/**/*.h'
 end
 
 s.subspec 'JQFrameworkHeader' do |JQFrameworkHeader|
-JQFrameworkHeader.source_files = 'JQFramework/JQFrameworkHeader/**/*.{h,m}'
-JQFrameworkHeader.public_header_files = 'JQFramework/JQFrameworkHeader/**/*.h'
-JQFrameworkHeader.frameworks = 'UIKit', 'Foundation', 'AVFoundation'
+JQFrameworkHeader.source_files = 'JQFramework/JQFrameworkHeader/**/*'
+#JQFrameworkHeader.public_header_files = 'JQFramework/JQFrameworkHeader/**/*.h'
 JQFrameworkHeader.dependency 'JQFrameworkHeader/Foundation'
 JQFrameworkHeader.dependency 'JQFrameworkHeader/UIKit'
 JQFrameworkHeader.dependency 'JQFrameworkHeader/Utility'

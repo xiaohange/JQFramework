@@ -13,5 +13,6 @@
 #import "JQUIKit.h"
 #import "JQFoundation.h"
 #import "GTMBase64.h"
+#import "UINavigationController+FDFullscreenPopGesture.h"
 
 #endif /* JQFramework_h */

@@ -13,6 +13,7 @@
 		3C2F932221D0B26B00BB8E8B /* CALayer+JQIBInspectable.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2F932121D0B26B00BB8E8B /* CALayer+JQIBInspectable.m */; };
 		3C2F932521D0B66200BB8E8B /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2F932421D0B66200BB8E8B /* NSString+MD5.m */; };
 		3C2F932821D0B67600BB8E8B /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2F932721D0B67600BB8E8B /* NSString+Extension.m */; };
+		3C2F932E21D1CC3F00BB8E8B /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2F932D21D1CC3F00BB8E8B /* GTMBase64.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		471214A61F0CDF3400A7E223 /* NSDate+JQAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 471214631F0CDF3400A7E223 /* NSDate+JQAdd.m */; };
 		471214A71F0CDF3400A7E223 /* NSDictionary+JQAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 471214651F0CDF3400A7E223 /* NSDictionary+JQAdd.m */; };
 		471214A81F0CDF3400A7E223 /* NSObject+JQAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 471214671F0CDF3400A7E223 /* NSObject+JQAdd.m */; };
@@ -85,6 +86,9 @@
 		3C2F932421D0B66200BB8E8B /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
 		3C2F932621D0B67600BB8E8B /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
 		3C2F932721D0B67600BB8E8B /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
+		3C2F932B21D1CC3F00BB8E8B /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		3C2F932C21D1CC3F00BB8E8B /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		3C2F932D21D1CC3F00BB8E8B /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
 		471214611F0CDF3400A7E223 /* JQFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQFoundation.h; sourceTree = "<group>"; };
 		471214621F0CDF3400A7E223 /* NSDate+JQAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+JQAdd.h"; sourceTree = "<group>"; };
 		471214631F0CDF3400A7E223 /* NSDate+JQAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+JQAdd.m"; sourceTree = "<group>"; };
@@ -202,10 +206,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C2F932A21D1CC3F00BB8E8B /* CTMBase64 */ = {
+			isa = PBXGroup;
+			children = (
+				3C2F932B21D1CC3F00BB8E8B /* GTMBase64.h */,
+				3C2F932C21D1CC3F00BB8E8B /* GTMDefines.h */,
+				3C2F932D21D1CC3F00BB8E8B /* GTMBase64.m */,
+			);
+			path = CTMBase64;
+			sourceTree = "<group>";
+		};
 		4712145F1F0CDF3400A7E223 /* JQFramework */ = {
 			isa = PBXGroup;
 			children = (
 				471214751F0CDF3400A7E223 /* JQFramework.h */,
+				3C2F932A21D1CC3F00BB8E8B /* CTMBase64 */,
 				471214601F0CDF3400A7E223 /* JQFoundation */,
 				4712147B1F0CDF3400A7E223 /* JQUIKIt */,
 				471214A31F0CDF3400A7E223 /* JQUtility */,
@@ -459,7 +474,7 @@
 		47B0E0A41ECD2A0700A56F44 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = HaRi;
 				TargetAttributes = {
 					47B0E0AB1ECD2A0700A56F44 = {
@@ -592,6 +607,7 @@
 				3C2F932521D0B66200BB8E8B /* NSString+MD5.m in Sources */,
 				471214BC1F0CDF3400A7E223 /* UIScrollView+JQAdd.m in Sources */,
 				471214A81F0CDF3400A7E223 /* NSObject+JQAdd.m in Sources */,
+				3C2F932E21D1CC3F00BB8E8B /* GTMBase64.m in Sources */,
 				471214BF1F0CDF3400A7E223 /* UITextView+JQAdd.m in Sources */,
 				471214B61F0CDF3400A7E223 /* UIFont+JQTTF.m in Sources */,
 				471214A61F0CDF3400A7E223 /* NSDate+JQAdd.m in Sources */,
@@ -659,15 +675,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -708,15 +732,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;

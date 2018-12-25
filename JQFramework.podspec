@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name         = "JQFramework"
-s.version      = "1.1.8"
+s.version      = "1.1.9"
 s.summary      = "Effectively improve development efficiency, a number of networks, extensions, classification, UIKit under the package library."
 s.homepage     = "https://github.com/xiaohange/JQFramework"
 s.license      = { :type => "MIT", :file => "LICENSE" }
@@ -27,6 +27,11 @@ end
 s.subspec 'JQUtility' do |ut|
 ut.source_files = 'JQFramework/JQUtility/**/*'
 #ut.public_header_files = 'JQFramework/JQUtility/**/*.h'
+end
+
+s.subspec 'CTMBase64' do |ct|
+ct.source_files = 'JQFramework/CTMBase64/**/*'
+ct.requires_arc = false
 end
 
 end

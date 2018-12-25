@@ -12,5 +12,6 @@
 #import "JQConstant.h"
 #import "JQUIKit.h"
 #import "JQFoundation.h"
+#import "GTMBase64.h"
 
 #endif /* JQFramework_h */

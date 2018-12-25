@@ -215,14 +215,14 @@
 			isa = PBXGroup;
 			children = (
 				3C2F932921D0CD1900BB8E8B /* JQFrameworkHeader */,
-				471214601F0CDF3400A7E223 /* Foundation */,
-				4712147B1F0CDF3400A7E223 /* UIKIt */,
-				471214A31F0CDF3400A7E223 /* Utility */,
+				471214601F0CDF3400A7E223 /* JQFoundation */,
+				4712147B1F0CDF3400A7E223 /* JQUIKIt */,
+				471214A31F0CDF3400A7E223 /* JQUtility */,
 			);
 			path = JQFramework;
 			sourceTree = "<group>";
 		};
-		471214601F0CDF3400A7E223 /* Foundation */ = {
+		471214601F0CDF3400A7E223 /* JQFoundation */ = {
 			isa = PBXGroup;
 			children = (
 				471214611F0CDF3400A7E223 /* JQFoundation.h */,
@@ -251,10 +251,10 @@
 				471214721F0CDF3400A7E223 /* NSUserDefaults+JQSafeAccess.h */,
 				471214731F0CDF3400A7E223 /* NSUserDefaults+JQSafeAccess.m */,
 			);
-			path = Foundation;
+			path = JQFoundation;
 			sourceTree = "<group>";
 		};
-		4712147B1F0CDF3400A7E223 /* UIKIt */ = {
+		4712147B1F0CDF3400A7E223 /* JQUIKIt */ = {
 			isa = PBXGroup;
 			children = (
 				4712147C1F0CDF3400A7E223 /* JQUIKit.h */,
@@ -307,16 +307,16 @@
 				471214A11F0CDF3400A7E223 /* UIView+JQScreenShot.h */,
 				471214A21F0CDF3400A7E223 /* UIView+JQScreenShot.m */,
 			);
-			path = UIKIt;
+			path = JQUIKIt;
 			sourceTree = "<group>";
 		};
-		471214A31F0CDF3400A7E223 /* Utility */ = {
+		471214A31F0CDF3400A7E223 /* JQUtility */ = {
 			isa = PBXGroup;
 			children = (
 				471214A41F0CDF3400A7E223 /* JQUtilities.h */,
 				471214A51F0CDF3400A7E223 /* JQUtilities.m */,
 			);
-			path = Utility;
+			path = JQUtility;
 			sourceTree = "<group>";
 		};
 		47B0E0A31ECD2A0700A56F44 = {

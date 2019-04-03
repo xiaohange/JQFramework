@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		2523F2DFD6C889A4A602CF4C /* libPods-JQFrameworkDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F5F46BE26B715D286AD30DAF /* libPods-JQFrameworkDemo.a */; };
+		3C13B5AB225488720035471F /* NSArray+JQArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C13B5AA225488720035471F /* NSArray+JQArray.m */; };
+		3C13B5AE225489AA0035471F /* NSIndexPath+JQExtern.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C13B5AC225489AA0035471F /* NSIndexPath+JQExtern.m */; };
+		3C13B5B122548A080035471F /* UIButton+JQExtern.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C13B5AF22548A080035471F /* UIButton+JQExtern.m */; };
+		3C13B5B422548B390035471F /* UIButton+NoWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C13B5B222548B390035471F /* UIButton+NoWebCache.m */; };
+		3C13B5B722548B5C0035471F /* UILabel+JQExtern.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C13B5B622548B5C0035471F /* UILabel+JQExtern.m */; };
+		3C13B5BA22548B740035471F /* UIView+JQExtern.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C13B5B922548B740035471F /* UIView+JQExtern.m */; };
 		3C2F931C21D0B1BE00BB8E8B /* UIImage+GradientColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2F931B21D0B1BE00BB8E8B /* UIImage+GradientColor.m */; };
 		3C2F931F21D0B24A00BB8E8B /* UIDevice+Hardware.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2F931D21D0B24A00BB8E8B /* UIDevice+Hardware.m */; };
 		3C2F932221D0B26B00BB8E8B /* CALayer+JQIBInspectable.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2F932121D0B26B00BB8E8B /* CALayer+JQIBInspectable.m */; };
@@ -76,6 +82,18 @@
 
 /* Begin PBXFileReference section */
 		215EE2F577B3E5988B13B944 /* Pods-JQFrameworkDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JQFrameworkDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JQFrameworkDemo/Pods-JQFrameworkDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		3C13B5A9225488720035471F /* NSArray+JQArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+JQArray.h"; sourceTree = "<group>"; };
+		3C13B5AA225488720035471F /* NSArray+JQArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+JQArray.m"; sourceTree = "<group>"; };
+		3C13B5AC225489AA0035471F /* NSIndexPath+JQExtern.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSIndexPath+JQExtern.m"; sourceTree = "<group>"; };
+		3C13B5AD225489AA0035471F /* NSIndexPath+JQExtern.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSIndexPath+JQExtern.h"; sourceTree = "<group>"; };
+		3C13B5AF22548A080035471F /* UIButton+JQExtern.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+JQExtern.m"; sourceTree = "<group>"; };
+		3C13B5B022548A080035471F /* UIButton+JQExtern.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+JQExtern.h"; sourceTree = "<group>"; };
+		3C13B5B222548B390035471F /* UIButton+NoWebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+NoWebCache.m"; sourceTree = "<group>"; };
+		3C13B5B322548B390035471F /* UIButton+NoWebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+NoWebCache.h"; sourceTree = "<group>"; };
+		3C13B5B522548B5C0035471F /* UILabel+JQExtern.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+JQExtern.h"; sourceTree = "<group>"; };
+		3C13B5B622548B5C0035471F /* UILabel+JQExtern.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+JQExtern.m"; sourceTree = "<group>"; };
+		3C13B5B822548B740035471F /* UIView+JQExtern.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JQExtern.h"; sourceTree = "<group>"; };
+		3C13B5B922548B740035471F /* UIView+JQExtern.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JQExtern.m"; sourceTree = "<group>"; };
 		3C2F931A21D0B1BE00BB8E8B /* UIImage+GradientColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GradientColor.h"; sourceTree = "<group>"; };
 		3C2F931B21D0B1BE00BB8E8B /* UIImage+GradientColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GradientColor.m"; sourceTree = "<group>"; };
 		3C2F931D21D0B24A00BB8E8B /* UIDevice+Hardware.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Hardware.m"; sourceTree = "<group>"; };
@@ -242,6 +260,8 @@
 			isa = PBXGroup;
 			children = (
 				471214611F0CDF3400A7E223 /* JQFoundation.h */,
+				3C13B5AD225489AA0035471F /* NSIndexPath+JQExtern.h */,
+				3C13B5AC225489AA0035471F /* NSIndexPath+JQExtern.m */,
 				3C2F932321D0B66100BB8E8B /* NSString+MD5.h */,
 				3C2F932421D0B66200BB8E8B /* NSString+MD5.m */,
 				3C2F932621D0B67600BB8E8B /* NSString+Extension.h */,
@@ -266,6 +286,8 @@
 				471214711F0CDF3400A7E223 /* NSTimer+JQBlock.m */,
 				471214721F0CDF3400A7E223 /* NSUserDefaults+JQSafeAccess.h */,
 				471214731F0CDF3400A7E223 /* NSUserDefaults+JQSafeAccess.m */,
+				3C13B5A9225488720035471F /* NSArray+JQArray.h */,
+				3C13B5AA225488720035471F /* NSArray+JQArray.m */,
 			);
 			path = JQFoundation;
 			sourceTree = "<group>";
@@ -274,6 +296,10 @@
 			isa = PBXGroup;
 			children = (
 				4712147C1F0CDF3400A7E223 /* JQUIKit.h */,
+				3C13B5B322548B390035471F /* UIButton+NoWebCache.h */,
+				3C13B5B222548B390035471F /* UIButton+NoWebCache.m */,
+				3C13B5B822548B740035471F /* UIView+JQExtern.h */,
+				3C13B5B922548B740035471F /* UIView+JQExtern.m */,
 				3C2F932021D0B26A00BB8E8B /* CALayer+JQIBInspectable.h */,
 				3C2F932121D0B26B00BB8E8B /* CALayer+JQIBInspectable.m */,
 				3C2F931E21D0B24A00BB8E8B /* UIDevice+Hardware.h */,
@@ -284,10 +310,14 @@
 				4712147E1F0CDF3400A7E223 /* UIAlertView+JQBlock.m */,
 				4712147F1F0CDF3400A7E223 /* UIButton+JQAlignment.h */,
 				471214801F0CDF3400A7E223 /* UIButton+JQAlignment.m */,
+				3C13B5B022548A080035471F /* UIButton+JQExtern.h */,
+				3C13B5AF22548A080035471F /* UIButton+JQExtern.m */,
 				471214811F0CDF3400A7E223 /* UIButton+JQBackgroundColor.h */,
 				471214821F0CDF3400A7E223 /* UIButton+JQBackgroundColor.m */,
 				471214831F0CDF3400A7E223 /* UIButton+JQBlock.h */,
 				471214841F0CDF3400A7E223 /* UIButton+JQBlock.m */,
+				3C13B5B522548B5C0035471F /* UILabel+JQExtern.h */,
+				3C13B5B622548B5C0035471F /* UILabel+JQExtern.m */,
 				471214851F0CDF3400A7E223 /* UIColor+JQAdd.h */,
 				471214861F0CDF3400A7E223 /* UIColor+JQAdd.m */,
 				471214871F0CDF3400A7E223 /* UIFont+JQTTF.h */,
@@ -482,12 +512,12 @@
 		47B0E0A41ECD2A0700A56F44 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1010;
+				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = HaRi;
 				TargetAttributes = {
 					47B0E0AB1ECD2A0700A56F44 = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = WTB2BKP7UZ;
+						DevelopmentTeam = NXY5JXSFY9;
 						ProvisioningStyle = Automatic;
 					};
 					47B0E0C41ECD2A0700A56F44 = {
@@ -506,7 +536,7 @@
 			};
 			buildConfigurationList = 47B0E0A71ECD2A0700A56F44 /* Build configuration list for PBXProject "JQFrameworkDemo" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -579,6 +609,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				471214B81F0CDF3400A7E223 /* UIImage+JQColor.m in Sources */,
+				3C13B5B422548B390035471F /* UIButton+NoWebCache.m in Sources */,
 				471214C11F0CDF3400A7E223 /* UIView+JQFrame.m in Sources */,
 				471214C31F0CDF3400A7E223 /* UIView+JQScreenShot.m in Sources */,
 				471214B21F0CDF3400A7E223 /* UIButton+JQAlignment.m in Sources */,
@@ -586,12 +617,14 @@
 				476B20701F0DCE1800E86402 /* NSString+JQAdd.m in Sources */,
 				471214B11F0CDF3400A7E223 /* UIAlertView+JQBlock.m in Sources */,
 				471214B41F0CDF3400A7E223 /* UIButton+JQBlock.m in Sources */,
+				3C13B5B122548A080035471F /* UIButton+JQExtern.m in Sources */,
 				471214A71F0CDF3400A7E223 /* NSDictionary+JQAdd.m in Sources */,
 				471214C21F0CDF3400A7E223 /* UIView+JQIBInspectable.m in Sources */,
 				471214BB1F0CDF3400A7E223 /* UIImage+JQRotate.m in Sources */,
 				476F6D711F1D94D1003BD532 /* UIImage+JQSubImage.m in Sources */,
 				3C2F933721D1D66800BB8E8B /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
 				471214BE1F0CDF3400A7E223 /* UITableView+JQAdd.m in Sources */,
+				3C13B5BA22548B740035471F /* UIView+JQExtern.m in Sources */,
 				471214AC1F0CDF3400A7E223 /* NSString+JQSystem.m in Sources */,
 				471214BA1F0CDF3400A7E223 /* UIImage+JQResize.m in Sources */,
 				3C2F932821D0B67600BB8E8B /* NSString+Extension.m in Sources */,
@@ -607,7 +640,10 @@
 				3C2F931C21D0B1BE00BB8E8B /* UIImage+GradientColor.m in Sources */,
 				471214C41F0CDF3400A7E223 /* JQUtilities.m in Sources */,
 				47B0E0B11ECD2A0700A56F44 /* main.m in Sources */,
+				3C13B5AB225488720035471F /* NSArray+JQArray.m in Sources */,
 				471214AE1F0CDF3400A7E223 /* NSUserDefaults+JQSafeAccess.m in Sources */,
+				3C13B5B722548B5C0035471F /* UILabel+JQExtern.m in Sources */,
+				3C13B5AE225489AA0035471F /* NSIndexPath+JQExtern.m in Sources */,
 				471214B51F0CDF3400A7E223 /* UIColor+JQAdd.m in Sources */,
 				471214B91F0CDF3400A7E223 /* UIImage+JQGIF.m in Sources */,
 				471214BD1F0CDF3400A7E223 /* UITabBar+Extension.m in Sources */,
@@ -677,6 +713,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -734,6 +771,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -786,7 +824,7 @@
 			baseConfigurationReference = 215EE2F577B3E5988B13B944 /* Pods-JQFrameworkDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = WTB2BKP7UZ;
+				DEVELOPMENT_TEAM = NXY5JXSFY9;
 				INFOPLIST_FILE = JQFrameworkDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = HanJunqiang.JQFrameworkDemo;
@@ -799,7 +837,7 @@
 			baseConfigurationReference = 5B264CEFFAEB4C2095F41988 /* Pods-JQFrameworkDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = WTB2BKP7UZ;
+				DEVELOPMENT_TEAM = NXY5JXSFY9;
 				INFOPLIST_FILE = JQFrameworkDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = HanJunqiang.JQFrameworkDemo;

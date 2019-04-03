@@ -12,6 +12,7 @@
 #import "UIView+JQFrame.h"
 #import "UIView+JQScreenShot.h"
 #import "UIView+JQFind.h"
+#import "UIView+JQExtern.h"
 #import "UIImage+JQColor.h"
 #import "UIImage+JQResize.h"
 #import "UIImage+JQRotate.h"
@@ -32,6 +33,8 @@
 #import "UIImage+GradientColor.h"
 #import "UIDevice+Hardware.h"
 #import "CALayer+JQIBInspectable.h"
-
+#import "UIButton+JQExtern.h"
+#import "UIButton+NoWebCache.h"
+#import "UILabel+JQExtern.h"
 
 #endif /* JQUIKit_h */

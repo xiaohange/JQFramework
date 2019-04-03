@@ -175,4 +175,5 @@
  */
 - (NSString *)timestampToStandardTimeAndFormatter:(NSString *)format;
 
+- (BOOL)isEqualToStringCaseInsensitive:(NSString *)aString;
 @end

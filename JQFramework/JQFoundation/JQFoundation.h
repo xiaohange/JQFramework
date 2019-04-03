@@ -21,5 +21,7 @@
 #import "NSObject+JQSafeKVO.h"
 #import "NSString+MD5.h"
 #import "NSString+Extension.h"
+#import "NSArray+JQArray.h"
+#import "NSIndexPath+JQExtern.h"
 
 #endif /* JQFoundation_h */

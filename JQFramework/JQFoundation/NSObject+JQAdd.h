@@ -79,5 +79,16 @@
  */
 - (void)removeAssociatedValues;
 
++ (id)object;
++ (id)objectWithDictionary:(NSDictionary *)dictionay;
+- (id)initWithDictionary:(NSDictionary *)dictionay;
+- (BOOL)isDictionaryClass;
+- (BOOL)isArrayClass;
+- (BOOL)isObjectValid;
++ (NSArray *)objectListWithDictionaryList:(NSArray *)dictList;
++ (id)modelWithDictionary:(NSDictionary *)dictionay;
++ (NSArray *)modelListWithDictionaryList:(NSArray *)dictList;
+- (NSInvocation *)createInvocationWithSelector:(SEL)selector;
+- (void)performBlock:(void(^)(void))block afterDelay:(NSTimeInterval)delayInSecond;
 
 @end

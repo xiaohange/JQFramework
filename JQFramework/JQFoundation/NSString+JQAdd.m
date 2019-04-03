@@ -242,4 +242,9 @@
 + (NSString *)libraryPath {
     return [NSSearchPathForDirectoriesInDomains(NSLibraryDirectory, NSUserDomainMask, YES) firstObject];
 }
+
+- (BOOL)isEqualToStringCaseInsensitive:(NSString *)aString
+{
+    return [self compare:aString options:NSCaseInsensitiveSearch] == 0;
+}
 @end
